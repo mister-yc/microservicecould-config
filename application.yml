@@ -1,0 +1,15 @@
+spring:
+  profies:
+    active: 
+    - dev
+
+---
+spring:
+  profies: dev   #开发环境
+  application: 
+    name: microservicecloud-config-atguigu-dev
+---
+spring:
+  profies: test   #测试环境
+  application: 
+    name: microservicecloud-config-atguigu-test
